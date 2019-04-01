@@ -20,32 +20,36 @@ h2 {
 }
 h1 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .main-text {
   text-align: justify;
+  margin-bottom: 25px;
 }
 .author-text {
   font-size: 22px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 .container {
   width: 1140px;
   /* margin-left: auto;
   margin-right: auto;
   margin-top: 20px; */
-  margin: 20px auto 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 .blog-post {
   width: 75%;
   float: left;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 .other-postos {
   width: 25%;
@@ -54,4 +58,18 @@ h2 {
 .author-box {
   padding-top: 20px;
   border-top: 1px solid rgb(97, 95, 95);
+}
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+.blog-post img {
+  height: 150px;
+  width: auto;
 }
